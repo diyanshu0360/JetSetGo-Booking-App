@@ -6,6 +6,7 @@ import useFetch from '../hooks/useFetch'
 
     const { data, loading, error } = useFetch("/hotels/countByType")
     const img = [imgdemo, imgdemo, imgdemo, imgdemo, imgdemo]
+    
       return (
         <div className='ms-48 me-48'>
             <p className='font-bold text-slate-600'>Browse by property type</p>

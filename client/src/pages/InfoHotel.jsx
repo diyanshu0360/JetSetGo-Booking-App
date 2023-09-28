@@ -52,7 +52,7 @@ const InfoHotel = () => {
             <div className='p-5'>
               <p className='text-2xl font-bold m-1 mb-0'>{data.name}</p>
               <p className='text-sm text-slate-800 mt-0 m-1'>{data.address}</p>
-              <p className='text-blue-900 m-1'>Excellent Location - {data.distance}m from center</p>
+              <p className='text-blue-900 m-1'>Excellent Location - {data.distance} from center</p>
               <p className='text-green-500 font-bold m-1'>Book a stay over ${data.cheapestPrice}</p>
             </div>
             <div className='p-5'>

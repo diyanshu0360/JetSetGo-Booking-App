@@ -75,11 +75,10 @@ const Header = () => {
     <div className='ms-44 me-44'>
       <div className='p-5 pt-0 h-32'>
         <p className='text-3xl font-bold p-2 w-[400px] float-right'>Discover and enjoy your new places and experiences</p>
-        <p className='p-2 text-slate-600 float-right w-[400px]'>Explore destinations, places and unforgettable experiences</p>
       </div>
       <div className='mt-20 mb-2 bg-white text-slate-400 text-sm flex justify-between '>
         <div className='self-center w-full'>
-          <input onChange={(e) => setDestination(e.target.value)} className='text-sm p-3 pe-16 border-2 border-e-0 border-black' type="text" placeholder='Where are you going?' />
+          <input onChange={(e) => setDestination(e.target.value)} className='text-sm p-3 pe-16 border-2 border-e-0 border-black w-full' type="text" placeholder='Where are you going?' />
         </div>
         <div className='self-center relative p-3 border-2 border-e-0 border-black w-full text-center'>
           <span className='cursor-pointer' onClick={() => setOpenDate(!openDate)}>{format(dates[0].startDate, "dd/MM/yyyy")} to {format(dates[0].endDate, "dd/MM/yyyy")}</span>

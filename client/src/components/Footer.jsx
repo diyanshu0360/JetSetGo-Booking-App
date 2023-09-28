@@ -9,7 +9,7 @@ const Footer = () => {
           <p className='font-bold text-xl'>JetSetGo</p>
           <p className='text-sm text-slate-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eum voluptas amet.</p>
           <div className='flex gap-2 p-5 pt-0 pb-0 w-44'>
-            <SocialIcon  url="https://twitter.com" />
+            <SocialIcon url="https://twitter.com" />
             <SocialIcon url="https://instagram.com" />
             <SocialIcon url="https://facebook.com" />
             <SocialIcon url="https://youtube.com" />
