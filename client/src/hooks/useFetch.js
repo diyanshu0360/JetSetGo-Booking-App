@@ -12,7 +12,6 @@ const useFetch = (url) => {
       try {
         await axios.get(url).then((val) => {
           setData(val.data);
-          // console.log(data)
         }).catch((e) => {
           console.log(e)
         });
@@ -30,7 +29,6 @@ const useFetch = (url) => {
     try {
       await axios.get(url).then((val) => {
         setData(val.data);
-        // console.log(data)
       }).catch((e) => {
         console.log(e)
       });
